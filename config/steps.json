@@ -1,0 +1,20 @@
+[
+    {
+        "name": "step1",
+        "template_path": "images/g.bmp",
+        "action": "copy",
+        "offset": {"x": -5, "y": -41},
+        "threshold": 0.8
+    },
+    {
+        "name": "step2",
+        "template_path": "images/gf.bmp",
+        "action": "click",
+        "threshold": 0.85
+    },
+    {
+        "name": "step3",
+        "template_path": "images/df.bmp",
+        "action": "click"
+    }
+]
